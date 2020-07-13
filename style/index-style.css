@@ -1,0 +1,31 @@
+#header-section {
+  padding: 2em;
+  background: #FF416C;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, right top, from(#FF4B2B), to(#FF416C));
+  background: linear-gradient(to right, #FF4B2B, #FF416C);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 2em;
+}
+
+#game-text {
+  font-family: 'Montserrat';
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
+
+#game-container {
+  text-align: center;
+}
+
+#rock-image, #paper-image, #scissor-image {
+  width: 100px;
+  padding: 3em;
+}
+
+#rock-image .rock-option, #rock-image .paper-option, #rock-image .scissor-option, #paper-image .rock-option, #paper-image .paper-option, #paper-image .scissor-option, #scissor-image .rock-option, #scissor-image .paper-option, #scissor-image .scissor-option {
+  float: inherit;
+}
+/*# sourceMappingURL=index-style.css.map */
