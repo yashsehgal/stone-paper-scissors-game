@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 #header-section {
   padding: 2em;
   background: #FF416C;
@@ -21,11 +27,57 @@
 }
 
 #rock-image, #paper-image, #scissor-image {
-  width: 100px;
+  width: 200px;
   padding: 3em;
 }
 
-#rock-image .rock-option, #rock-image .paper-option, #rock-image .scissor-option, #paper-image .rock-option, #paper-image .paper-option, #paper-image .scissor-option, #scissor-image .rock-option, #scissor-image .paper-option, #scissor-image .scissor-option {
-  float: inherit;
+#score-section {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  position: relative;
+  padding: 4em;
+  margin: 0;
+  padding-left: 10em;
+  width: 100px;
+  align-items: center;
+  border-color: black;
+  border-style: solid;
+}
+
+#user-score, #computer-score {
+  text-align: center;
+  position: relative;
+}
+
+.batch {
+  color: white;
+  background-color: #003bbb;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  position: absolute;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#user-label {
+  top: 0;
+  right: 0;
+}
+
+#computer-label {
+  top: 10;
+  left: -20;
+}
+
+#user-score, #computer-score {
+  font-family: 'Montserrat';
+  font-weight: bolder;
 }
 /*# sourceMappingURL=index-style.css.map */
